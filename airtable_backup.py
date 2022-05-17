@@ -37,8 +37,8 @@ class TableBackup:
         self.table_name=table_name
     # Read the table in airtable
     def read_aritable(self):
-
-        api_key = "keyscafR75XCFOj5x"
+#write the api key
+        api_key = ""
 
         table_example = Table(api_key, self.base_id, self.table_name)
 
